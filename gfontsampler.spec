@@ -10,7 +10,6 @@ Source0:		http://linuxadvocate.org/projects/gfontsampler/downloads/%name-%versio
 Patch: gfontsampler-0.4-xdg.patch
 Group:			Graphical desktop/GNOME
 URL:			http://linuxadvocate.org/projects/gfontsampler/
-BuildRoot:		%{_tmppath}/%{name}-%{version}-root
 Summary:		Gnome Font Sampler
 BuildRequires:		libgnomeui2-devel
 BuildRequires:		libglade2.0-devel
