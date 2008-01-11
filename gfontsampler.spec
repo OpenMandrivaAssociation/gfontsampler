@@ -42,10 +42,6 @@ rm -fr $RPM_BUILD_ROOT/%_prefix/doc
 rm -fr $RPM_BUILD_ROOT/%_includedir
 mv %buildroot%{_datadir}/gnome/apps/Utilities/ %buildroot%{_datadir}/applications
 #menu
-mkdir -p $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}): command="%{name}" icon="%{name}.png" needs="x11" title="GFontSampler" longtitle="Font previewer" section="System/Text Tools" xdg="true"
-EOF
 
 #icons
 mkdir -p $RPM_BUILD_ROOT/%_liconsdir
@@ -72,7 +68,6 @@ rm -rf $RPM_BUILD_ROOT
 %_datadir/applications/%name.desktop
 %{_datadir}/pixmaps/%{name}/%{name}-icon.png
 %{_datadir}/%{name}
-%{_menudir}/%name
 %{_miconsdir}/%name.png
 %{_iconsdir}/%name.png
 %{_liconsdir}/%name.png
