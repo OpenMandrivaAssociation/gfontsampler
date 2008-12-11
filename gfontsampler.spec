@@ -15,7 +15,7 @@ Summary:		Gnome Font Sampler
 BuildRequires:		libgnomeui2-devel
 BuildRequires:		libglade2.0-devel
 BuildRequires:		bison
-BuildRequires:		ImageMagick
+BuildRequires:		imagemagick
 
 %description
 Gnome Font Sampler
