@@ -1,6 +1,6 @@
 %define name		gfontsampler
 %define version 	0.4
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name:			%{name}
 Version:		%{version}
