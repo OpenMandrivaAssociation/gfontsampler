@@ -1,0 +1,14 @@
+--- gfontsampler-0.4/gfontsampler.desktop.in~	2005-01-05 18:38:06.000000000 +0100
++++ gfontsampler-0.4/gfontsampler.desktop.in	2006-08-02 10:27:03.000000000 +0200
+@@ -1,9 +1,9 @@
+-
+ [Desktop Entry]
++Encoding=UTF-8
+ Name=Font Sampler
+ Comment=View and compare your fonts
+ Exec=gfontsampler
+ Icon=@PACKAGE_PIXMAPS_DIR@/gfontsampler-icon.png
+ Terminal=false
+-MultipleArgs=false
+ Type=Application
++Categories=X-MandrivaLinux-System-TextTools;
