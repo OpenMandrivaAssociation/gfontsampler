@@ -9,7 +9,7 @@ License:		GPL
 Source0:		http://linuxadvocate.org/projects/gfontsampler/downloads/%name-%version.tar.bz2
 Patch: gfontsampler-0.4-xdg.patch
 Group:			Graphical desktop/GNOME
-URL:			http://linuxadvocate.org/projects/gfontsampler/
+URL:			https://linuxadvocate.org/projects/gfontsampler/
 BuildRoot:		%{_tmppath}/%{name}-%{version}-root
 Summary:		Gnome Font Sampler
 BuildRequires:		libgnomeui2-devel
